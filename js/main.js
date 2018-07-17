@@ -61,13 +61,13 @@ require(['jquery'],function($){
             $m1.css("backgroundColor","#333");
             $lin_1.css("color","#fff");
             $lin_a1.css("color","#fff");
-            $lin_i_1.attr("src","img/tb01.png");
+            $lin_i_1.attr("src","img/tb02.png");
         }).mouseout(function () {
             $mucy1.hide();
-            $m1.css("backgroundColor","#e3e3e3");
-            $lin_1.css("color","#333");
-            $lin_a1.css("color","#333");
-            $lin_i_1.attr("src","img/tb1.png");			
+            $m2.css("backgroundColor","#e3e3e3");
+            $lin_2.css("color","#333");
+            $lin_a2.css("color","#333");
+            $lin_i_2.attr("src","img/tb2.png");
         });
 
         $mucy1.mouseover(function () {
@@ -393,6 +393,14 @@ require(['jquery'],function($){
 		 $('#toper').css("display","none");
 		}
 	});
+	//购物车
+		$(window).scroll(function(){
+			if($(window).scrollTop() >= 630){
+			$('#xf').css("display","block"); 
+			} else{
+			 $('#xf').css("display","none");
+			}
+		});
 	
 })
 

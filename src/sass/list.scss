@@ -1,0 +1,432 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+li{list-style:none}
+body{font: 12px SimSun,tahoma,arial,sans-serif;}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+a{text-decoration:none;color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+//wrap
+#wrap{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: auto;
+    padding:5px 0;
+    font: 12px 'Microsoft YaHei',Tahoma,Helvetica,Sans-Serif;
+    min-height:430px;
+    .cate_right{
+        margin: 0 auto;
+        float: none;
+        width:1000px;
+        .cate_list{
+            width: 1000px;
+            height: 20px;
+            margin: 20px auto;
+            font-family: '微软雅黑';
+            .dl_1{
+                font-size:12px;
+                dt{
+                    float: left;
+                    font-weight: normal;
+                    margin-right: 10px;
+                }
+                dd{
+                    text-align: center;
+                    float: left;
+                    margin: 0 2px;
+                    position: relative;
+                    cursor: pointer;
+                    padding: 0 14px;
+                }
+            }
+        }
+        form{
+            .sort_bar{
+                height: 30px;
+                border: 1px solid #DDD;
+                ul{
+                    width: 360px;
+                    float: left;
+                    overflow: hidden;
+                    li{
+                        width: 80px;
+                        height: 30px;
+                        line-height: 30px;
+                        float: left;
+                        text-indent: -10px;
+                        text-align: center;
+                        border-right: 1px solid #DDD;
+                        a{
+                            line-height:30px;
+                            position:relative;
+                            color:#565656;
+                        }
+                    }
+                    .desc1{
+                        color:#ba1a16;
+                        background:#fafafa;
+                        a{
+                            line-height:30px;
+                            position:relative;
+                            i{
+                               background:url(../img/arrs.png) center no-repeat;
+                               background-position:-9px -1px;
+                               position: absolute;
+                               right: -10px;
+                               top: 5px;
+                               width: 7px;
+                               height: 8px;
+                               display: block;
+                            }
+                        }
+                    } 
+                    .desc2{
+                        a{
+                            i{                               
+                                background:url(../img/arrs.png) center no-repeat;
+                                background-position:-17px -1px;
+                                position: absolute;
+                                right: -10px;
+                                top: 5px;
+                                width: 7px;
+                                height: 8px;
+                                display: block;
+                            }
+                        }
+                    } 
+                    .desc3{
+                        a{
+                            i{                                
+                                background:url(../img/arrs.png) center no-repeat;
+                                background-position:-1px -1px;
+                                position: absolute;
+                                right: -10px;
+                                top: 5px;
+                                width: 7px;
+                                height: 8px;
+                                display: block;
+                            }
+                        }
+                    }                 
+                }
+                .bar_range{
+                    width: 100px;
+                    float: left;
+                    position: relative;
+                    height: 30px;
+                    .par_box{
+                        background: #FFF;
+                        position: absolute;
+                        top: 3px;
+                        left: 4px;
+                        span{
+                            display: block;
+                            width: 40px;
+                            height: 22px;
+                            float: left;
+                            position:relative;
+                            label{
+                               top:3px;
+                               position: absolute;
+                               display: inline-block;
+                               z-index: 1;
+                               color: #CCC; 
+                            }
+                            input{
+                                padding: 1px 1px;
+                                width: 37px;
+                                height: 18px;
+                                color: #666;
+                                border: 1px solid #d6d6d6;
+                                position:absolute;
+                            }
+                        }
+                        code{
+                            display: block;
+                            float: left;
+                            height: 22px;
+                            line-height: 22px;
+                            width: 13px;
+                            text-align: center;
+                            font-style: normal;
+                            font-weight: 500;
+                        }
+                    }
+                }
+                .serch_check{
+                    float: left;
+                    margin: 0 14px;
+                    line-height: 30px;
+                    a{
+                        width: 12px;
+                        height: 12px;
+                        display: block;
+                        background: url(../img/check.png) no-repeat;
+                        float: left;
+                        margin: 10px 5px;
+                    }
+                    span{
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+                .page_set{
+                    float: right;
+                    padding: 6px 8px;
+                    font: 12px 'arial';
+                    color: #666;
+                    position: relative;
+                    span{
+                        margin:0;
+                        padding:0;
+                    }
+                    .arr{
+                        font-family: Simsun;
+                        font-weight: bold;
+                        padding: 1px 3px 0;
+                        border: 1px solid #CCC;
+                        vertical-align: bottom;
+                        cursor: pointer;
+                        margin-right: 5px;
+                    }
+                    a{
+                        span{
+                            margin:0;
+                            padding:0;
+                        }
+                    }
+                }
+            }
+        }
+        .productGirl{
+            padding-top:10px;
+           .girl_wrap{
+               width: 1030px;
+               height: auto;
+              .product{
+                  width:240px;
+                  position:relative;
+                  float:left;
+                  padding:0;
+                  line-height:1.5;
+                  z-index:1;
+                  margin:0 13px 20px 0;
+                  overflow:visible;
+                  .product_iWrap{
+                      padding-bottom: 0;
+                      width: 222px;
+                      font-size: 0;
+                      position: absolute;
+                      background-color: #fff;
+                      min-height: 98%;
+                      margin: 0;
+                      padding: 8px;
+                      padding-bottom:0;
+                      border: 1px solid #ddd;
+                      font-size:12px;
+                      .productImg_iWrap{
+                          display: table;
+                          table-layout: fixed;
+                          width: 100%;
+                          padding-bottom: 1px;
+                          position:relative;
+                          height:160px;
+                          a{
+                              max-width:100%;
+                              display: table-cell;
+                              text-align: center;
+                              vertical-align: middle;
+                              height: 160px;
+                              width: 100%;
+                              img{
+                                  display: block;
+                                  max-width: 100%;
+                                  margin: 0 auto;
+                                  animation-fill-mode: both;
+                                  animation-duration: .7s;
+                              }
+                          }
+                          
+                      }
+                      .productPrice{
+                          height: 30px;
+                          line-height: 40px;
+                          margin: 0 0 6px;
+                          letter-spacing: normal;
+                          font-family: arial,verdana,sans-serif !important;
+                          color: #C00;
+                          font-size: 14px;
+                          overflow: hidden;
+                          display:block;
+                          em{
+                                font-family: arial;
+                                font-weight: 400;
+                                font-size: 20px;
+                                color: #c80a28;
+                                font-style:normal;
+                                b{
+                                    margin-right: 3px;
+                                    font-weight: 700;
+                                    font-size: 14px;
+                                    vertical-align: middle;
+                                  }
+                              }
+                              del{
+                                  margin-top: 2px;
+                                  margin-left: 5px;
+                                  color: #999;
+                                  font-weight:400;
+                                  text-decoration: line-through;
+                              }
+                      }
+                  }
+              } 
+           }
+           .search_page{
+               text-align: center;
+               margin: 30px 0;
+               color: #888;
+               font: 12px/1.5 tahoma,"microsoft yahei","\5FAE\8F6F\96C5\9ED1";
+               strong{
+                   background-color: #eeeeee;
+                   border: 1px solid #DDD;
+                   display: inline-block;
+                   line-height: 35px;
+                   height: 35px;
+                   width: 35px;
+                   margin: 0 6px;
+               }
+               a{
+                   display: inline-block;
+                    line-height: 35px;
+                    height: 35px;
+                    width: 35px;
+                    margin: 0 6px;
+                    border: 1px solid #DDD;                    
+               }
+               .page_last_a{
+                   width: 60px;
+                    background: #eeeeee;
+                    display: inline-block;
+                    line-height: 35px;
+                    height: 35px;
+                    margin: 0 6px;
+                    border: 1px solid #DDD;
+               }
+               span{
+                   font: 14px/35px '宋体';
+                    color: #999;
+                    margin: 0;
+                    padding: 0;
+               }
+           }
+        }
+    }
+}
+//last
+#last{height:auto;overflow: hidden;min-height:140px;margin:0 auto;
+    .last1{width:100%;background:#fafafa;overflow:hidden;margin-top: 15px;
+        .last_1{padding-left:82px;width:9%;max-width:95px;float:left;margin:20px 0;
+            h2{background-position: -8px 0;height:25px;background:url(../img/footer2014.png) no-repeat;margin-left:-15px;text-indent:-999px;}
+            ul{width:100%;
+                li{height:20px;font: 12px/20px 'Microsoft YaHei';color:#333;text-indent:-15px;
+                    a{color:#565656;}
+                }
+            }
+        }
+        .last_2{padding-left:82px;width:9%;max-width:95px;float:left;margin:20px 0;
+            h2{background-position: -8px 0;height:25px;background:url(../img/footer2014.png) no-repeat;margin-left:-15px;text-indent:-999px;}
+            ul{width:100%;
+                li{height:20px;font: 12px/20px 'Microsoft YaHei';color:#333;text-indent:-15px;
+                    a{color:#565656;}
+                }
+            }
+        }
+        .last_3{padding-left:82px;width:9%;max-width:95px;float:left;margin:20px 0;
+            h2{background-position: -8px 0;height:25px;background:url(../img/footer2014.png) no-repeat;margin-left:-15px;text-indent:-999px;}
+            ul{width:100%;
+                li{height:20px;font: 12px/20px 'Microsoft YaHei';color:#333;text-indent:-15px;
+                    a{color:#565656;}
+                }
+            }
+        }
+        .last_4{padding-left:82px;width:9%;max-width:95px;float:left;margin:20px 0;
+            h2{background-position: -8px 0;height:25px;background:url(../img/footer2014.png) no-repeat;margin-left:-15px;text-indent:-999px;}
+            ul{width:100%;
+                li{height:20px;font: 12px/20px 'Microsoft YaHei';color:#333;text-indent:-15px;
+                    a{color:#565656;}
+                }
+            }
+        }
+        .last_5{padding-left:82px;width:9%;max-width:95px;float:left;margin:20px 0;
+            h2{background-position: -8px 0;height:25px;background:url(../img/footer2014.png) no-repeat;margin-left:-15px;text-indent:-999px;}
+            ul{width:100%;
+                li{height:20px;font: 12px/20px 'Microsoft YaHei';color:#333;text-indent:-15px;
+                    a{color:#565656;}
+                }
+            }
+        }
+        .last_6{padding-left:82px;width:9%;max-width:95px;float:left;margin:20px 0;
+            h2{background-position: -8px 0;height:25px;background:url(../img/footer2014.png) no-repeat;margin-left:-15px;text-indent:-999px;}
+            ul{width:100%;
+                li{height:20px;font: 12px/20px 'Microsoft YaHei';color:#333;text-indent:-15px;
+                    a{color:#565656;}
+                }
+            }
+        }
+    }
+    .last2{width:100%;margin:5px auto;height:30px;background:#393939;color:#fff;text-align: center;font: 12px/32px 'Microsoft YaHei';
+        a{color:#fff;margin:0 10px 0 10px;}
+    }
+    .last3{margin:15px 0;text-align:center;font: 12px SimSun,tahoma,arial,sans-serif;
+        .lasts1{margin:0;padding: 0;
+                img{margin:0;padding:0;}
+                #aa1{display:inline-block;height:20px;line-height:20px;color:#565656;
+                    img{float:left;}
+                    p{float:left;height:20px;line-height:20px;margin:0 0 0 5px;color:#939393;}
+                }
+        }
+        
+    }
+}
+//左侧二维码
+.ewm{
+    position: fixed;
+    width: 120px;
+    height: 200px;
+    left: 50%;
+    margin-left: -680px;
+    bottom: 40%;
+    cursor: pointer;
+}
+//右侧悬浮
+#xf {
+  display: block;
+  width: 72px;
+  height: 308px;
+  background: url(../img/float_box4.png) no-repeat 0 0;
+  position: fixed;
+  right: 50%;
+  bottom: 20%;
+  margin-right: -680px; }
+  #xf a {
+    display: block;
+    width: 72px;
+    height: 80px;
+    float: left;
+    margin-top: 1px;
+    color: #565656; }
+  #xf .xf_1:hover {
+    background: url(../img/float_box4.png);
+    background-position: -78px 0; }
+  #xf .xf_2:hover {
+    background: url(../img/float_box4.png);
+    background-position: -78px -86px; }
+  #xf .xf_3:hover {
+    background: url(../img/float_box4.png);
+    background-position: -78px -164px; }
+  #xf .xf_4:hover {
+    background: url(../img/float_box4.png);
+    background-position: -78px bottom;
+    height: 64px; }
+

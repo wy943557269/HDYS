@@ -37,3 +37,159 @@ h1,h2,h3,h4,h5,h6{font-weight:normal;}
 #hd .help{height:137px;width:15%;float:left;margin-left:25px;}
 .help h2{font-size:16px;color:#686868;font-weight:bold;line-height:35px;}
 .help ul li{width:50%;float:left;line-height:24px;font-size:12px;}
+/*追加的样式*/
+.shopping_nr_top{
+	background: #fcfcfc;
+	border: #d9d8d8 1px solid;
+	border-top: none;
+	margin: 0;
+	float: left;
+	width: 99.9%;
+}
+#brand_cart_15{
+	margin-bottom: 20px;
+	padding: 0;
+	overflow: hidden;
+	float: left;
+	width: 100%;
+}
+.rec-6920199{
+	height: auto;
+	border-bottom: #eaeaea 1px solid;
+	font-family: 'Microsoft YaHei';
+	float: left;	
+}
+.shop_product{
+	width: 367px;
+	height: auto;
+	margin-left: 15px;
+	padding-bottom: 10px;
+	text-align: left;
+	float: left;
+	font-size: 12px;
+	background:url(../img/shopping_car_bg.png) no-repeat right;	
+}
+.shop_product_money{
+	width: 132px;
+	float: left;
+	text-align: center;
+	height: 132px;
+	font-size: 12px;
+	background:url(../img/shopping_car_bg.png) no-repeat right;
+}
+.shop_product_number{
+	width: 132px;
+	float: left;
+	text-align: center;
+	height: 132px;
+	font-size: 12px;
+	background:url(../img/shopping_car_bg.png) no-repeat right;	
+}
+.shop_product_money00{
+	width: 122px;
+	font-size: 14px;
+	color: #bf0000;
+	line-height: 132px;
+	float: left;
+	text-align: center;
+	height: 132px;
+	background:url(../img/shopping_car_bg.png) no-repeat right;
+}
+.shop_product_close{
+	width: 134px;
+	font-size: 12px;
+	width: 134px;
+	float:left;
+	background:url(../img/shopping_car_bg.png) no-repeat right;
+}
+.shop_product_tip{
+	background: none;
+	width: 184px;
+	float: left;
+	text-align: center;
+	height: 132px;
+	font-size: 12px;	
+}
+/*.shop_product*/
+.shop_product_pic{
+	float: left;
+	width: 112px;
+	height: auto;
+	border: #ddd 1px solid;
+	margin: 10px 0 0 0;	
+}
+.shop_product_name{
+	margin: 40px 0 0 10px;
+	float: left;
+	display: inline;
+	width: 243px;
+	overflow: hidden;
+	font-size: 14px;
+}
+.shop_product_size{
+	padding-top: 10px;
+	display: inline-block;
+}
+.shop_product_pic img{
+	width:112px;
+	height:112px;
+}
+/*.shop_product_money*/
+.shop_product_money .cprice{
+	padding:50px 0;
+}
+.shop_product_money .cprice del{
+	color:#999;
+	text-decoration: line-through;
+}
+.shop_product_money .cprice span{
+	font-size: 14px;
+}
+/*.shop_product_number*/
+.shop_product_number #J_AmountWidget{
+	position: relative;
+	display: inline-block;
+	margin: 51px 0;
+	text-align: center;
+	font-size: 12px;
+}
+.shop_product_number #J_AmountWidget .increase{
+	right: -20px;
+	width: 12px;
+	height: 12px;
+	float: left;
+	line-height: 12px;
+	text-align: center;
+	overflow: hidden;
+	border: 1px solid #a7a6ab;
+	position: absolute;
+	margin: 7px 0;
+	cursor: pointer;
+}
+.shop_product_number #J_AmountWidget .decrease{
+	left: -20px;
+	width: 12px;
+	height: 12px;
+	float: left;
+	line-height: 12px;
+	text-align: center;
+	overflow: hidden;
+	border: 1px solid #a7a6ab;
+	position: absolute;
+	margin: 7px 0;
+	cursor: pointer;
+}
+.shop_product_number #J_AmountWidget .text{
+	width: 36px;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 3px;
+	text-align: center;
+	border: 1px solid #ccc;
+	color: #444;
+}
+/*.shop_product_close*/
+.shop_product_close .middle{
+	padding: 50px 0;
+	text-align:center;
+}
